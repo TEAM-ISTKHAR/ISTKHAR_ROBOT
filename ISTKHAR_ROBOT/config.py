@@ -18,7 +18,7 @@ class Config(object):
 
     OWNER_USERNAME = ("OWNER_USERNAME", "ll_ISTKHAR_BABY_lll")
     
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "zoyu_support")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "THUNDERDEVS")
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 
@@ -32,7 +32,7 @@ class Config(object):
    
     LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002046320443")
    
-    BOT_USERNAME = getenv("BOT_USERNAME" , "AlisaMusicRobot")
+    BOT_USERNAME = getenv("BOT_USERNAME" , "AvishaXRobot")
    
     DATABASE_URL = getenv("DATABASE_URL", None)
 
